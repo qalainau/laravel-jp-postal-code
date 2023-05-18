@@ -14,7 +14,10 @@
     "autoload": {
         "psr-4": {
             "Sukohi\\LaravelJpPostalCode\\": "src/"
-        }
+       },
+        "classmap": [
+            "src/"
+        ]
     },
     "minimum-stability": "stable",
     "extra": {
